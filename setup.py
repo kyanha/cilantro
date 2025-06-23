@@ -13,24 +13,24 @@ setup(
     packages=find_packages(),
     install_requires=[
         "chardet==3.0.4",
-        "ujson==1.35",  # locking dep for websockets
-        "idna==2.10",  # locking dep for sanic
+        "ujson==5.4.0",  # locking dep for websockets
+        "idna==3.7",  # locking dep for sanic
         "typing_extensions==3.10.0.0",  # locking dep for pyzmq
         "bidict==0.21.4",  # locking deb for socketio
         "multidict==4.7.6", # locking dep for sanic
         "yarl==1.4.2", # locking dep for python-socketio
         "uvloop==0.14.0",
         "aiofiles==22.1.0",
-        "sanic==20.6.3",
+        "sanic==20.12.7",
         "coloredlogs==15.0.1",
         "pyzmq==23.1.0",
-        "requests==2.25.1",
+        "requests==2.32.4",
         "checksumdir==1.2.0",
         "pynacl==1.5.0",
         "stdlib_list==0.8.0",
         "psutil==5.9.1",
         "python-socketio==5.5.2",
-        "aiohttp==3.8.1",
+        "aiohttp==3.11.0b0",
         "iso8601"
     ],
     entry_points={
