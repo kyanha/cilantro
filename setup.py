@@ -30,7 +30,7 @@ setup(
         "stdlib_list==0.8.0",
         "psutil==5.9.1",
         "python-socketio==5.5.2",
-        "aiohttp==3.11.0b0",
+        "aiohttp==3.12.14",
         "iso8601"
     ],
     entry_points={
